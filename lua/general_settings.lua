@@ -5,6 +5,7 @@ H.set.encoding = 'UTF-8';
 H.set.timeoutlen = 300;
 H.set.autoindent = true;
 H.set.history = 50;
+H.set.termguicolors = true;
 
 -- Character Option
 H.set.smartcase = true;

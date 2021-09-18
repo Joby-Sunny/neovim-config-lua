@@ -8,7 +8,7 @@ end;
 
 H.set_keymap = vim.api.nvim_set_keymap;
 
-H.MODES = {
+H.MODE = {
 	NORMAL = 'n',
 	VISUAL = 'v',
 	INSERT = 'i',

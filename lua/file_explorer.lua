@@ -20,9 +20,9 @@ H.set_global_variable("nvim_tree_lsp_disable_window_picker", 1);
 H.set_global_variable("nvim_tree_refresh_wait", 500);
 
 
-H.set_keymap(H.MODES.NORMAL, '<C-t>', '<cmd>NvimTreeToggle<CR>', options);
-H.set_keymap(H.MODES.NORMAL, '<leader>r', '<cmd>NvimTreeRefresh<CR>', options);
-H.set_keymap(H.MODES.NORMAL, '<leader>n', '<cmd>NvimTreeFindFile<CR>', options);
+H.set_keymap(H.MODE.NORMAL, '<C-t>', '<cmd>NvimTreeToggle<CR>', options);
+H.set_keymap(H.MODE.NORMAL, '<leader>r', '<cmd>NvimTreeRefresh<CR>', options);
+H.set_keymap(H.MODE.NORMAL, '<leader>n', '<cmd>NvimTreeFindFile<CR>', options);
 
 H.set_global_variable("nvim_tree_disable_default_keybindings", 1);
 
