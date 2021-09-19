@@ -37,14 +37,14 @@ H.set.writebackup = false;
 -- Splits Options
 H.set.switchbuf = 'useopen';
 H.set.splitright = true;
+H.set.splitbelow = true;
 
 H.set.scrolloff = 3;
-
--- Adds Undo File
-H.set.undodir = '~/.neovim/undodir/';
-H.set.undofile = true;
 
 H.cmd [[
 	syntax enable	
 	colorscheme dracula
+
+    set undodir=~/.neovim/undodir
+    set undofile
 ]];

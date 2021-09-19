@@ -7,6 +7,9 @@ function package_listing()
 	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
 
+    -- nvim-web-devicons
+    use 'kyazdani42/nvim-web-devicons'
+
 	-- nvim-tree.lua
 	use {
 		'kyazdani42/nvim-tree.lua',
@@ -32,6 +35,9 @@ function package_listing()
 
 	-- You can alias plugin names
 	use {'dracula/vim', as = 'dracula'}
+
+    -- LSP 
+    use 'neovim/nvim-lspconfig'
 
 end
 	
