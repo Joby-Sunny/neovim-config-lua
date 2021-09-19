@@ -1,6 +1,6 @@
 local H = require("helpers");
 local nvim_lsp = require("lspconfig");
-
+local cmp_nvim_lsp = require("cmp_nvim_lsp");
 
 local function on_attach (client, bufnr)
     -- disable default formatting of typescript-language-server
@@ -24,7 +24,8 @@ end
 
 
 nvim_lsp.tsserver.setup {
-    on_attach = on_attach
+    on_attach = on_attach,
+    capabilites = cmp_nvim_lsp.update_capabilities(vim.lsp.protocol.make_client_capabilities()),
 }
 
 

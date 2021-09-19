@@ -39,6 +39,11 @@ function package_listing()
     -- LSP 
     use 'neovim/nvim-lspconfig'
 
+    -- Autocompletion Plugin
+    use 'hrsh7th/cmp-nvim-lsp'
+    use 'hrsh7th/cmp-buffer'
+    use 'hrsh7th/nvim-cmp'
+
 end
 	
 package.startup(package_listing)
