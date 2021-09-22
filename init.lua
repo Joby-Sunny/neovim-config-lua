@@ -6,4 +6,4 @@ require("code_commenter");
 require("general_settings");
 require("git_plugin");
 require("statusline");
-require("LSP");
+vim.cmd [[ source ~/.config/nvim/vimscript/coc_nvim.vim ]]

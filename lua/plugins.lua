@@ -36,13 +36,8 @@ function package_listing()
 	-- You can alias plugin names
 	use {'dracula/vim', as = 'dracula'}
 
-    -- LSP 
-    use 'neovim/nvim-lspconfig'
-
-    -- Autocompletion Plugin
-    use 'hrsh7th/cmp-nvim-lsp'
-    use 'hrsh7th/cmp-buffer'
-    use 'hrsh7th/nvim-cmp'
+    -- Autocomplete and all
+    use {'neoclide/coc.nvim', branch = 'release'}
 
 end
 	
