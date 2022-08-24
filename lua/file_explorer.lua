@@ -22,7 +22,7 @@ return function(package)
             { key = { "o" }, action = "edit" },
             { key = "<CR>", action = "edit_in_place" },
             { key = "O", action = "edit_no_picker" },
-            { key = { "cd"}, action = "cd" },
+            { key = { "cd" }, action = "cd" },
             { key = "s", action = "vsplit" },
             { key = "i", action = "split" },
             { key = "t", action = "tabnew" },
