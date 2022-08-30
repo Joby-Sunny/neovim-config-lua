@@ -1,5 +1,7 @@
 local VIM = require('utils');
 
+VIM.setGlobalOption('mapleader', '<Space>');
+
 VIM.setOption('backup', false);
 VIM.setOption('cmdheight', 1);
 VIM.setOption('completeopt', { "menuone", "noselect" });

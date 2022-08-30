@@ -32,4 +32,7 @@ packer.startup(function(use)
     }
   }
 
+  -- Git Signs
+  use { 'lewis6991/gitsigns.nvim' }
+
 end)
