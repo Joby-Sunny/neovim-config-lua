@@ -32,6 +32,8 @@ packer.startup(function(use)
     }
   }
 
+  -- Code Commenting Plugin
+  use "tpope/vim-commentary"
   -- Git Signs
   use { 'lewis6991/gitsigns.nvim' }
 
@@ -51,5 +53,4 @@ packer.startup(function(use)
 
   -- Prettier {Javascript, Typescript}
   use 'prettier/vim-prettier'
-
 end)
