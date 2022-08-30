@@ -35,4 +35,21 @@ packer.startup(function(use)
   -- Git Signs
   use { 'lewis6991/gitsigns.nvim' }
 
+  -- LSP Plugin
+  use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
+
+  -- Autocompletion plugins
+  use 'hrsh7th/cmp-nvim-lsp'
+  use 'hrsh7th/cmp-buffer'
+  use 'hrsh7th/cmp-path'
+  use 'hrsh7th/cmp-cmdline'
+  use 'hrsh7th/nvim-cmp'
+
+  -- nvim-cmp doesn't know how to expand an snippet; so we need this;
+  use 'L3MON4D3/LuaSnip'
+  use 'saadparwaiz1/cmp_luasnip'
+
+  -- Prettier {Javascript, Typescript}
+  use 'prettier/vim-prettier'
+
 end)
