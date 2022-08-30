@@ -5,13 +5,7 @@ packer.startup(function(use)
   use 'wbthomason/packer.nvim'
 
   -- ColorScheme
-  use {
-    'mhartington/oceanic-next',
-    as = 'OceanicNext',
-    config = function()
-      vim.cmd "colorscheme OceanicNext"
-    end
-  }
+  use 'EdenEast/nightfox.nvim'
 
   -- Icon Pack
   use 'kyazdani42/nvim-web-devicons'
