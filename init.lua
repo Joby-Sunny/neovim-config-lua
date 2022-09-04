@@ -7,7 +7,7 @@ require "configure" ("statusline", "lualine");
 require "configure" ("git_signs", "gitsigns");
 require "configure" ("theme", "nightfox");
 
-require "language_servers" ("lspconfig", "tsserver", "cmp_nvim_lsp");
+require "language_servers"; 
 
 require "autocompletion";
 

@@ -128,5 +128,5 @@ return function(package)
 
   setKeyMap(MODE.NORMAL, "<C-t>", ":NvimTreeToggle <CR>")
   setKeyMap(MODE.NORMAL, "<C-n>", ":NvimTreeFocus <CR>")
-  setKeyMap(MODE.NORMAL, "<C-r>", ":NvimTreeRefresh <CR>")
+  -- setKeyMap(MODE.NORMAL, "<C-r>", ":NvimTreeRefresh <CR>")
 end
