@@ -100,6 +100,11 @@ return function(package)
           }
         }
       },
+      update_focused_file = {
+        enable = true,
+        update_root = false,
+        ignore_list = {"node_modules"},
+      },
       filesystem_watchers = {
         enable = true,
         debounce_delay = 50
